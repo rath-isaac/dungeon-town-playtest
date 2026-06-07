@@ -1,0 +1,85 @@
+{
+  "id": "dungeon-town-playtest",
+  "title": "Dungeon Town Playtest",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Solus",
+      "discord": "manedjackal",
+      "flags": {}
+    },
+    {
+      "name": "Duck",
+      "discord": "shreds7",
+      "flags": {}
+    },
+    {
+      "name": "Kell",
+      "discord": "kell_2525",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "d-town-actors",
+      "label": "Dungeon Town Playtest - Actors",
+      "path": "packs/d-town-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "d-town-feats",
+      "label": "Dungeon Town Playtest - Feats",
+      "path": "packs/d-town-feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "d-town-backgrounds",
+      "label": "Dungeon Town Playtest - Backgrounds",
+      "path": "packs/d-town-backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "d-town-adventures",
+      "label": "Dungeon Town Adventures",
+      "path": "packs/d-town-adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
